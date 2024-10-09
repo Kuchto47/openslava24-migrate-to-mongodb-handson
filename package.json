@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node ./src/seed.js",
-    "start": "node ./src/app.js"
+    "start:v2": "nodemon ./v2/v2.js",
+    "start:v1": "nodemon ./src/app.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,8 @@
     "mongodb": "^6.9.0",
     "pg": "^8.13.0",
     "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }

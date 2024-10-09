@@ -16,8 +16,8 @@ app.use('/orders', ordersRoutes);
 const startServer = async () => {
     try {
         await connectDB();
-        app.listen(3000, () => {
-            console.log('API running on http://localhost:3000');
+        app.listen(3001, () => {
+            console.log('API running on http://localhost:3001');
         });
     } catch (error) {
         console.error('Failed to start server', error);

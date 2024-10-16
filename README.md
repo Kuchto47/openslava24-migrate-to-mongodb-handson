@@ -40,8 +40,8 @@ Before starting this lab, ensure you have the following:
 Open a terminal and run the following commands:
 
 ```bash
-docker pull [your-image-name]
-docker run -it [your-image-name]
+docker pull public.ecr.aws/v4d7k6c9/relational-migrator:latest
+docker run -p 8080:8080 public.ecr.aws/v4d7k6c9/relational-migrator:latest
 ```
 
 Replace `[your-image-name]` with the actual name of your Docker image.

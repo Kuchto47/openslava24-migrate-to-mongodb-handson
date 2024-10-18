@@ -1,3 +1,16 @@
+# Openslava 2024 - NoSQL, No Problem: Master the Art of Migrating RDBMS to MongoDB
+This showcase repository is a creation of a Hands-on lab led by MongoDB guy [Rayed Benbrahim](https://github.com/RayedB) during Openslava 2024 conference.
+
+## Abstract
+Imagine seamlessly transforming your rigid relational database into a flexible, scalable MongoDB powerhouse - all without missing a beat in your live application. Sounds impossible? Not anymore. In this workshop, you'll tackle a real-world API challenge, juggling user accounts and transfers while secretly overhauling the entire backend. Armed with MongoDB's Relational Migrator, you'll perform database migration between relational database to a v2 using MongoDB without interruption of service. Whether you're a seasoned database guru or a curious developer, this workshop promises to be an eye-opener. You'll walk away with the skills to modernize any database infrastructure and maybe even score that promotion you've been eyeing.
+
+## Technologies used
+TODO
+
+## Useful links
+- [Openslava 2024 lab page](https://www.openslava.sk/2024/#/program/9758d5ff-13e1-4aa1-9536-4c735369e7ed)
+- [Original repo](TODO)
+
 # Migrate to MongoDB - A hands-on workshop
 
 

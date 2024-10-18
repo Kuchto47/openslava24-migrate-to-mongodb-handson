@@ -17,7 +17,7 @@ async function connectDB() {
         try {
             // Connect to the MongoDB server
             await client.connect();
-            dbConnection = client.db("northwind");
+            dbConnection = client.db("northwind-migrated-db");
             console.log("Connected to MongoDB");
         } catch (error) {
             console.error("Failed to connect to MongoDB", error);
